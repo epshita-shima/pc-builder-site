@@ -1,0 +1,284 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "productName": "Intel Core i9-13900K",
+            "category": "CPU / Processor",
+            "price": 589.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Intel Core i9-13900K is a 13th Gen flagship desktop processor designed for enthusiasts, gamers, and creators who demand the highest level of performance. Featuring a hybrid architecture with 24 cores—8 Performance-cores and 16 Efficient-cores—it delivers exceptional multitasking, fast gaming, and heavy content creation capabilities. With a base clock of 3.0GHz and turbo boost up to 5.8GHz, this processor ensures responsiveness and lightning-fast performance in demanding workloads. It supports DDR4 and DDR5 RAM, PCIe 5.0, and is compatible with Intel’s latest Z790 chipset motherboards. Ideal for users who need the power to game, stream, and work simultaneously, the i9-13900K offers excellent thermal efficiency when paired with an adequate cooling solution. Whether you're compiling large codebases, rendering 4K videos, or playing the latest AAA titles at high frame rates, this processor delivers smooth, reliable, and blisteringly fast performance across the board.",
+            "image_url": "/images/CPU_1.png"
+        },
+        {
+            "id": "2",
+            "productName": "AMD Ryzen 7 7800X3D",
+            "category": "CPU / Processor",
+            "price": 449.99,
+            "status": "Out of Stock",
+            "rating": 4.8,
+            "description": "The AMD Ryzen 7 7800X3D is a cutting-edge gaming processor built with AMD’s revolutionary 3D V-Cache technology, which stacks additional cache memory directly onto the CPU for faster game load times and improved performance. With 8 cores and 16 threads, it provides outstanding multitasking capabilities, whether you’re gaming, streaming, or editing content. It features a base clock of 4.2GHz and a boost clock of up to 5.0GHz, optimized for the AM5 platform and compatible with DDR5 memory and PCIe 5.0 devices. It offers improved latency and frame consistency, making it especially well-suited for competitive gamers and streamers looking for top-tier responsiveness. The 7800X3D doesn’t just offer gaming performance—it also excels in creative applications, making it a versatile choice for content creators. This processor is designed to outperform many higher-core CPUs in real-world gaming scenarios thanks to its massive 96MB L3 cache, delivering a true edge in performance.",
+            "image_url": "/images/CPU_2.jpg"
+          
+        },
+        {
+            "id": "3",
+            "productName": "Intel Core i5-13600KF",
+            "category": "CPU / Processor",
+            "price": 319.99,
+            "status": "In Stock",
+            "rating": 4.7,
+            "description": "The Intel Core i5-13600KF is a balanced and powerful processor aimed at gamers and professionals who want excellent performance without breaking the bank. It comes equipped with a hybrid architecture comprising 14 cores—6 Performance-cores and 8 Efficient-cores—and 20 threads for smart task distribution and efficient load management. With a turbo boost of up to 5.1GHz, this CPU handles demanding applications such as gaming, 3D rendering, and heavy multitasking with ease. As part of Intel’s 13th Gen Raptor Lake lineup, the i5-13600KF supports both DDR4 and DDR5 memory, giving users flexibility depending on their motherboard setup. It also supports PCIe 5.0 for next-gen GPU and storage device compatibility. While it lacks integrated graphics (KF variant), its performance with a dedicated GPU is impressive. Ideal for budget-conscious builders, it offers one of the best performance-per-dollar ratios in the market, making it a go-to option for mid-range to high-end PC builds.",
+            "image_url": "/images/CPU_3.jpg"
+        },
+        {
+            "id": "4",
+            "productName": "CPU object semiconductor bytes",
+            "category": "CPU",
+            "price": "4500",
+            "status": "In Stock",
+            "rating": "5",
+            "description": "The Intel Core i5-13600KF is a balanced and powerful processor aimed at gamers and professionals who want excellent performance without breaking the bank. It comes equipped with a hybrid architecture comprising 14 cores—6 Performance-cores and 8 Efficient-cores—and 20 threads for smart task distribution and efficient load management. With a turbo boost of up to 5.1GHz, this CPU handles demanding applications such as gaming, 3D rendering, and heavy multitasking with ease. As part of Intel’s 13th Gen Raptor Lake lineup, the i5-13600KF supports both DDR4 and DDR5 memory, giving users flexibility depending on their motherboard setup. It also supports PCIe 5.0 for next-gen GPU and storage device compatibility. While it lacks integrated graphics (KF variant), its performance with a dedicated GPU is impressive. Ideal for budget-conscious builders, it offers one of the best performance-per-dollar ratios in the market, making it a go-to option for mid-range to high-end PC builds.",
+            "image_url": "/images/CPU_4.jpg"
+        },
+        {
+            "id": "5",
+            "productName": "Logitech MX Keys",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+              "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_1.jpg"
+        },
+        {
+            "id": "6",
+            "productName": "Keychron K6",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+             "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_2.jpg"
+        },
+        {
+            "id": "7",
+            "productName": "Razer Huntsman Mini",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_3.jpg"
+        },
+        {
+            "id": "8",
+            "productName": "Corsair K95 RGB Platinum",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_4.jpg"
+        },
+        {
+            "id": "9",
+            "productName": "SteelSeries Apex Pro",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_5.jpg"
+        },
+        {
+            "id": "10",
+            "productName": "SteelSeries Apex Pro",
+            "category": "Others",
+            "price": 119.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Logitech MX Keys Wireless Keyboard is designed for professionals and power users who prioritize comfort, efficiency, and seamless multi-device connectivity. Featuring spherically dished keys that match the shape of your fingertips, this keyboard offers a natural and fluid typing experience. The keys are backlit and intelligently adjust brightness based on ambient lighting, making it ideal for both daytime and nighttime productivity. Built with a solid metal frame and a low-profile design, the MX Keys delivers stability and a premium feel on any desk. It supports multi-device pairing via Bluetooth or USB Unifying Receiver, allowing you to switch between up to three devices effortlessly—whether on Windows, macOS, Linux, or even mobile platforms. With a long-lasting rechargeable battery that can last up to 10 days with backlighting on, and months with it off, this keyboard is a top choice for coders, writers, designers, and multitaskers who demand reliable, ergonomic performance all day long.",
+            "image_url": "/images/keyboard_6.jpg"
+        },
+        {
+            "id": "11",
+            "productName": "Dell UltraSharp U2723QE",
+            "category": "Monitor",
+            "price": 499.99,
+            "status": "In Stock",
+            "rating": 4.8,
+            "description": "The Dell UltraSharp U2723QE is a premium 27-inch 4K IPS monitor designed for professionals who demand color accuracy, sharp visuals, and productivity-focused features. With a stunning 3840 x 2160 resolution, this monitor delivers exceptional detail, ideal for content creators, designers, and developers. It features Dell’s groundbreaking IPS Black technology, offering deeper blacks and greater contrast compared to traditional IPS panels. The factory-calibrated color accuracy (99% sRGB) ensures out-of-the-box performance for photo and video editing. Its versatile USB-C hub includes DisplayPort, HDMI, Ethernet, and a 90W power delivery port—allowing a single-cable connection to your laptop for video, data, and charging. With ultra-thin bezels and an adjustable stand, the U2723QE promotes a clean, ergonomic workspace. It also supports daisy-chaining multiple monitors via DisplayPort-out. Whether you're multitasking, editing high-res visuals, or streaming media in 4K, the Dell U2723QE provides a flawless visual and user experience with industry-leading precision and build quality.",
+            "image_url": "/images/Monitor_1.jpg"
+        },
+        {
+            "id": "12",
+            "productName": "LG 27GN950-B",
+            "category": "Monitor",
+            "price": 699.99,
+            "status": "Out of Stock",
+            "rating": 4.7,
+            "description": "The Dell UltraSharp U2723QE is a premium 27-inch 4K IPS monitor designed for professionals who demand color accuracy, sharp visuals, and productivity-focused features. With a stunning 3840 x 2160 resolution, this monitor delivers exceptional detail, ideal for content creators, designers, and developers. It features Dell’s groundbreaking IPS Black technology, offering deeper blacks and greater contrast compared to traditional IPS panels. The factory-calibrated color accuracy (99% sRGB) ensures out-of-the-box performance for photo and video editing. Its versatile USB-C hub includes DisplayPort, HDMI, Ethernet, and a 90W power delivery port—allowing a single-cable connection to your laptop for video, data, and charging. With ultra-thin bezels and an adjustable stand, the U2723QE promotes a clean, ergonomic workspace. It also supports daisy-chaining multiple monitors via DisplayPort-out. Whether you're multitasking, editing high-res visuals, or streaming media in 4K, the Dell U2723QE provides a flawless visual and user experience with industry-leading precision and build quality.",
+            "image_url": "/images/Monitor_2.jpg"
+        },
+        {
+            "id": "13",
+            "productName": "ASUS ProArt Display PA278CV",
+            "category": "Monitor",
+            "price": 379.99,
+            "status": "In Stock",
+            "rating": 4.9,
+            "description": "The Dell UltraSharp U2723QE is a premium 27-inch 4K IPS monitor designed for professionals who demand color accuracy, sharp visuals, and productivity-focused features. With a stunning 3840 x 2160 resolution, this monitor delivers exceptional detail, ideal for content creators, designers, and developers. It features Dell’s groundbreaking IPS Black technology, offering deeper blacks and greater contrast compared to traditional IPS panels. The factory-calibrated color accuracy (99% sRGB) ensures out-of-the-box performance for photo and video editing. Its versatile USB-C hub includes DisplayPort, HDMI, Ethernet, and a 90W power delivery port—allowing a single-cable connection to your laptop for video, data, and charging. With ultra-thin bezels and an adjustable stand, the U2723QE promotes a clean, ergonomic workspace. It also supports daisy-chaining multiple monitors via DisplayPort-out. Whether you're multitasking, editing high-res visuals, or streaming media in 4K, the Dell U2723QE provides a flawless visual and user experience with industry-leading precision and build quality.",
+            "image_url": "/images/Monitor_3.jpg"
+        },
+        {
+            "id": "14",
+            "productName": "ASUS ROG Strix Z790-E",
+            "category": "Motherboard",
+            "price": 349.99,
+            "status": "In Stock",
+            "rating": 4.6,
+            "description": "The ASUS ROG Strix Z790-E Gaming WiFi motherboard is engineered for gamers, creators, and power users looking to build a high-performance PC with Intel’s 12th and 13th Gen processors. Built on the Z790 chipset, it supports DDR5 memory, PCIe 5.0 graphics cards, and blazing-fast Gen 4 M.2 storage. This ATX motherboard combines aggressive styling with advanced performance features, including a robust 18+1 power stage VRM design, AI Overclocking, and AI Cooling II to keep your system efficient and stable. Connectivity is top-notch with built-in WiFi 6E, Bluetooth 5.3, 2.5Gb Ethernet, and multiple USB 3.2 Gen 2x2 ports. For creators and modders, the board includes customizable RGB lighting with Aura Sync and reinforced PCIe slots for added durability. It’s designed with user-friendly features like Q-Release for quick GPU installation and BIOS FlashBack for easy firmware updates, making it an ideal motherboard for premium gaming and creative PC builds.",
+            "image_url": "/images/motherboard_1.jpg"
+        },
+        {
+            "id": "15",
+            "productName": "MSI MPG B650 Tomahawk",
+            "category": "Motherboard",
+            "price": 229.99,
+            "status": "In Stock",
+            "rating": 4.5,
+            "description": "The ASUS ROG Strix Z790-E Gaming WiFi motherboard is engineered for gamers, creators, and power users looking to build a high-performance PC with Intel’s 12th and 13th Gen processors. Built on the Z790 chipset, it supports DDR5 memory, PCIe 5.0 graphics cards, and blazing-fast Gen 4 M.2 storage. This ATX motherboard combines aggressive styling with advanced performance features, including a robust 18+1 power stage VRM design, AI Overclocking, and AI Cooling II to keep your system efficient and stable. Connectivity is top-notch with built-in WiFi 6E, Bluetooth 5.3, 2.5Gb Ethernet, and multiple USB 3.2 Gen 2x2 ports. For creators and modders, the board includes customizable RGB lighting with Aura Sync and reinforced PCIe slots for added durability. It’s designed with user-friendly features like Q-Release for quick GPU installation and BIOS FlashBack for easy firmware updates, making it an ideal motherboard for premium gaming and creative PC builds.",
+            "image_url": "/images/motherboard_2.jpg"
+        },
+        {
+            "id": "16",
+            "productName": "Gigabyte X670 AORUS Elite",
+            "category": "Motherboard",
+            "price": 269.99,
+            "status": "Out of Stock",
+            "description": "The ASUS ROG Strix Z790-E Gaming WiFi motherboard is engineered for gamers, creators, and power users looking to build a high-performance PC with Intel’s 12th and 13th Gen processors. Built on the Z790 chipset, it supports DDR5 memory, PCIe 5.0 graphics cards, and blazing-fast Gen 4 M.2 storage. This ATX motherboard combines aggressive styling with advanced performance features, including a robust 18+1 power stage VRM design, AI Overclocking, and AI Cooling II to keep your system efficient and stable. Connectivity is top-notch with built-in WiFi 6E, Bluetooth 5.3, 2.5Gb Ethernet, and multiple USB 3.2 Gen 2x2 ports. For creators and modders, the board includes customizable RGB lighting with Aura Sync and reinforced PCIe slots for added durability. It’s designed with user-friendly features like Q-Release for quick GPU installation and BIOS FlashBack for easy firmware updates, making it an ideal motherboard for premium gaming and creative PC builds.",
+            "image_url": "/images/motherboard_3.jpg"
+        },
+        {
+            "id": "17",
+            "productName": "Logitech MX Master 3S",
+            "category": "Others",
+            "price": 69.99,
+            "status": "Out of Stock",
+            "rating": 4.7,
+            "description": "The Logitech MX Master 3S is a premium wireless mouse designed for professionals and creatives who need precision, comfort, and versatility. It features an ultra-fast MagSpeed scroll wheel that can scroll through thousands of lines in a second with pinpoint accuracy. The MX Master 3S offers a high-precision 8000 DPI sensor that works flawlessly on virtually any surface, including glass. Its ergonomic design supports your hand comfortably during extended work sessions, reducing strain and fatigue. You can connect it to up to three devices simultaneously via Bluetooth or Logitech’s Unifying Receiver and switch between them seamlessly with the Easy-Switch button. The rechargeable battery lasts up to 70 days on a full charge, and a quick one-minute charge provides three hours of use. Compatible with Windows, macOS, and Linux, the MX Master 3S is ideal for multitaskers and power users who demand accuracy and reliability in their daily workflow.",
+            "image_url": "/images/mouse_1.jpg"
+        },
+        {
+            "id": "18",
+            "productName": "Razer DeathAdder V2 Gaming Mouse",
+            "category": "Others",
+            "price": 69.99,
+            "status": "Out of Stock",
+            "rating": 4.7,
+            "description": "The Logitech MX Master 3S is a premium wireless mouse designed for professionals and creatives who need precision, comfort, and versatility. It features an ultra-fast MagSpeed scroll wheel that can scroll through thousands of lines in a second with pinpoint accuracy. The MX Master 3S offers a high-precision 8000 DPI sensor that works flawlessly on virtually any surface, including glass. Its ergonomic design supports your hand comfortably during extended work sessions, reducing strain and fatigue. You can connect it to up to three devices simultaneously via Bluetooth or Logitech’s Unifying Receiver and switch between them seamlessly with the Easy-Switch button. The rechargeable battery lasts up to 70 days on a full charge, and a quick one-minute charge provides three hours of use. Compatible with Windows, macOS, and Linux, the MX Master 3S is ideal for multitaskers and power users who demand accuracy and reliability in their daily workflow.",
+            "image_url": "/images/mouse_2.jpg"
+        },
+        {
+            "id": "19",
+            "productName": "Glorious Model O ",
+            "category": "Others",
+            "price": 69.99,
+            "status": "Out of Stock",
+            "rating": 4.7,
+            "description": "The Logitech MX Master 3S is a premium wireless mouse designed for professionals and creatives who need precision, comfort, and versatility. It features an ultra-fast MagSpeed scroll wheel that can scroll through thousands of lines in a second with pinpoint accuracy. The MX Master 3S offers a high-precision 8000 DPI sensor that works flawlessly on virtually any surface, including glass. Its ergonomic design supports your hand comfortably during extended work sessions, reducing strain and fatigue. You can connect it to up to three devices simultaneously via Bluetooth or Logitech’s Unifying Receiver and switch between them seamlessly with the Easy-Switch button. The rechargeable battery lasts up to 70 days on a full charge, and a quick one-minute charge provides three hours of use. Compatible with Windows, macOS, and Linux, the MX Master 3S is ideal for multitaskers and power users who demand accuracy and reliability in their daily workflow.",
+            "image_url": "/images/mouse_3.jpg"
+        },
+        {
+            "id": "20",
+            "productName": "Corsair RM750x 750W",
+            "category": "Power Supply Unit",
+            "price": 124.99,
+            "status": "In Stock",
+            "rating": 4.9,
+             "description": "The Corsair RM750x 750W is a high-quality, fully modular power supply unit designed for enthusiasts and gamers who demand reliable and efficient power delivery. With an 80 PLUS Gold certification, it offers up to 90% energy efficiency, which helps reduce heat generation and lowers electricity costs. The RM750x features a powerful single +12V rail and premium Japanese capacitors, ensuring stable voltage output and long-lasting performance. Its zero RPM fan mode keeps the unit silent during low to moderate loads, only spinning up when necessary to maintain optimal temperatures. The fully modular design allows for easy cable management and cleaner builds by connecting only the cables you need. Compatible with modern PCs and capable of supporting high-end GPUs and CPUs, this PSU delivers dependable power with minimal ripple and noise, making it an excellent choice for gaming rigs and workstations alike.",
+            "image_url": "/images/power_supply_1.jpg"
+        },
+        {
+            "id": "21",
+            "productName": "Cooler Master MWE Gold 650W",
+            "category": "Power Supply Unit",
+            "price": 89.99,
+            "status": "In Stock",
+            "rating": 4.6,
+             "description": "The Corsair RM750x 750W is a high-quality, fully modular power supply unit designed for enthusiasts and gamers who demand reliable and efficient power delivery. With an 80 PLUS Gold certification, it offers up to 90% energy efficiency, which helps reduce heat generation and lowers electricity costs. The RM750x features a powerful single +12V rail and premium Japanese capacitors, ensuring stable voltage output and long-lasting performance. Its zero RPM fan mode keeps the unit silent during low to moderate loads, only spinning up when necessary to maintain optimal temperatures. The fully modular design allows for easy cable management and cleaner builds by connecting only the cables you need. Compatible with modern PCs and capable of supporting high-end GPUs and CPUs, this PSU delivers dependable power with minimal ripple and noise, making it an excellent choice for gaming rigs and workstations alike.",
+            "image_url": "/images/power_supply_2.jpg"
+        },
+        {
+            "id": "22",
+            "productName": "Seasonic Focus GX-850",
+            "category": "Power Supply Unit",
+            "price": 139.99,
+            "status": "Out of Stock",
+            "rating": 4.8,
+             "description": "The Corsair RM750x 750W is a high-quality, fully modular power supply unit designed for enthusiasts and gamers who demand reliable and efficient power delivery. With an 80 PLUS Gold certification, it offers up to 90% energy efficiency, which helps reduce heat generation and lowers electricity costs. The RM750x features a powerful single +12V rail and premium Japanese capacitors, ensuring stable voltage output and long-lasting performance. Its zero RPM fan mode keeps the unit silent during low to moderate loads, only spinning up when necessary to maintain optimal temperatures. The fully modular design allows for easy cable management and cleaner builds by connecting only the cables you need. Compatible with modern PCs and capable of supporting high-end GPUs and CPUs, this PSU delivers dependable power with minimal ripple and noise, making it an excellent choice for gaming rigs and workstations alike.",
+            "image_url": "/images/power_supply_3.jpg"
+        },
+        {
+            "id": "23",
+            "productName": "Corsair Vengeance LPX 16GB",
+            "category": "RAM",
+            "price": 69.99,
+            "status": "In Stock",
+            "rating": 4.8,
+             "description": "The Corsair Vengeance LPX 16GB is a high-performance DDR4 memory kit designed for gamers, enthusiasts, and PC builders seeking reliable and fast system memory. Featuring a low-profile heat spreader made of pure aluminum, it efficiently dissipates heat to ensure stable operation even under heavy workloads or overclocking conditions. With speeds ranging from 2400MHz to 3200MHz and tight timings, this RAM offers quick data transfer rates to improve overall system responsiveness and multitasking capabilities. It is compatible with most Intel and AMD motherboards and supports Intel XMP 2.0 for easy automatic overclocking. The 16GB capacity, typically in a dual-channel configuration, provides sufficient memory for gaming, video editing, and demanding applications. Its compact design fits easily into most PC builds, including those with large CPU coolers or limited space. The Vengeance LPX series is renowned for its performance, durability, and affordability, making it a popular choice among DIY builders.",
+            "image_url": "/images/ram_1.jpg"
+        },
+        {
+            "id": "24",
+            "productName": "G.SKILL Trident Z5 RGB 32GB",
+            "category": "RAM",
+            "price": 149.99,
+            "status": "In Stock",
+            "rating": 4.9,
+             "description": "The Corsair Vengeance LPX 16GB is a high-performance DDR4 memory kit designed for gamers, enthusiasts, and PC builders seeking reliable and fast system memory. Featuring a low-profile heat spreader made of pure aluminum, it efficiently dissipates heat to ensure stable operation even under heavy workloads or overclocking conditions. With speeds ranging from 2400MHz to 3200MHz and tight timings, this RAM offers quick data transfer rates to improve overall system responsiveness and multitasking capabilities. It is compatible with most Intel and AMD motherboards and supports Intel XMP 2.0 for easy automatic overclocking. The 16GB capacity, typically in a dual-channel configuration, provides sufficient memory for gaming, video editing, and demanding applications. Its compact design fits easily into most PC builds, including those with large CPU coolers or limited space. The Vengeance LPX series is renowned for its performance, durability, and affordability, making it a popular choice among DIY builders.",
+            "image_url": "/images/ram_2.jpg"
+        },
+        {
+            "id": "25",
+            "productName": "Kingston Fury Beast 16GB",
+            "category": "RAM",
+            "price": 74.99,
+            "status": "Out of Stock",
+            "rating": 4.7,
+             "description": "The Corsair Vengeance LPX 16GB is a high-performance DDR4 memory kit designed for gamers, enthusiasts, and PC builders seeking reliable and fast system memory. Featuring a low-profile heat spreader made of pure aluminum, it efficiently dissipates heat to ensure stable operation even under heavy workloads or overclocking conditions. With speeds ranging from 2400MHz to 3200MHz and tight timings, this RAM offers quick data transfer rates to improve overall system responsiveness and multitasking capabilities. It is compatible with most Intel and AMD motherboards and supports Intel XMP 2.0 for easy automatic overclocking. The 16GB capacity, typically in a dual-channel configuration, provides sufficient memory for gaming, video editing, and demanding applications. Its compact design fits easily into most PC builds, including those with large CPU coolers or limited space. The Vengeance LPX series is renowned for its performance, durability, and affordability, making it a popular choice among DIY builders.",
+            "image_url": "/images/ram_3.jpg"
+        },
+        {
+            "id": "26",
+            "productName": "Samsung 980 PRO 1TB SSD",
+            "category": "Storage Device",
+            "price": 129.99,
+            "status": "In Stock",
+            "rating": 4.9,
+             "description": "The Samsung 980 PRO 1TB SSD is a high-speed NVMe PCIe Gen4 solid-state drive designed to deliver exceptional performance for gaming, content creation, and professional workloads. With read speeds up to 7,000 MB/s and write speeds up to 5,000 MB/s, it drastically reduces load times and accelerates file transfers. Its advanced thermal control solutions prevent overheating, ensuring consistent performance during intense usage. Compatible with the latest motherboards, it offers excellent reliability and durability backed by Samsung’s trusted reputation. Ideal for users looking to upgrade their storage with fast, responsive, and future-proof technology.",
+            "image_url": "/images/Storage_1.jpg"
+        },
+        {
+            "id": "27",
+            "productName": "WD Blue SN570 1TB NVMe",
+            "category": "Storage Device",
+            "price": 64.99,
+            "status": "In Stock",
+            "rating": 4.7,
+             "description": "The Samsung 980 PRO 1TB SSD is a high-speed NVMe PCIe Gen4 solid-state drive designed to deliver exceptional performance for gaming, content creation, and professional workloads. With read speeds up to 7,000 MB/s and write speeds up to 5,000 MB/s, it drastically reduces load times and accelerates file transfers. Its advanced thermal control solutions prevent overheating, ensuring consistent performance during intense usage. Compatible with the latest motherboards, it offers excellent reliability and durability backed by Samsung’s trusted reputation. Ideal for users looking to upgrade their storage with fast, responsive, and future-proof technology.",
+            "image_url": "/images/Storage_2.jpg"
+        },
+        {
+            "id": "28",
+            "productName": "Seagate Barracuda 2TB HDD",
+            "category": "Storage Device",
+            "price": 49.99,
+            "status": "Out of Stock",
+            "rating": 4.5,
+            "description": "The Samsung 980 PRO 1TB SSD is a high-speed NVMe PCIe Gen4 solid-state drive designed to deliver exceptional performance for gaming, content creation, and professional workloads. With read speeds up to 7,000 MB/s and write speeds up to 5,000 MB/s, it drastically reduces load times and accelerates file transfers. Its advanced thermal control solutions prevent overheating, ensuring consistent performance during intense usage. Compatible with the latest motherboards, it offers excellent reliability and durability backed by Samsung’s trusted reputation. Ideal for users looking to upgrade their storage with fast, responsive, and future-proof technology.",
+            "image_url": "/images/Storage_3.jpg"
+        }
+    ]
+}
