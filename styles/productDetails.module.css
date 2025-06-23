@@ -1,0 +1,35 @@
+.productContainer {
+  max-width: auto;
+  margin: auto;
+  padding: 24px;
+  background: #fff;
+}
+
+.productTitle {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.productPrice {
+  color: #fa541c;
+  font-size: 22px;
+  margin: 16px 0;
+}
+
+.productRatingText {
+  margin-top: 4px;
+  color: #999;
+}
+
+.productCard img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.sectionCard {
+  margin-top: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}

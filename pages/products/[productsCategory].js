@@ -1,14 +1,16 @@
+import RootLayout from "@/src/component/Layouts/RootLayout";
 import { Card, Col, Row } from "antd";
+import Meta from "antd/es/card/Meta";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const AllProducts = ({ allProducts }) => {
-  const { Meta } = Card;
+const ProductCategory = ({categoryProducts}) => {
+  console.log(categoryProducts)
   return (
-    <div>
+      <div>
       <Row gutter={[16, 24]}>
-        {allProducts?.map((products) => (
+        {categoryProducts?.map((products) => (
           <Col
             key={products.id}
             className="gutter-row"
@@ -90,7 +92,7 @@ const AllProducts = ({ allProducts }) => {
                 >
                   Rating: <span>{products?.rating}</span>
                 </p>
-                <Link href={`/products/product/${products.id}`}>
+                <Link href={`/products/${products.id}`}>
                   <p
                     style={{
                       fontSize: "15px",
@@ -116,4 +118,44 @@ const AllProducts = ({ allProducts }) => {
   );
 };
 
-export default AllProducts;
+export default ProductCategory;
+
+ProductCategory.getLayout = (page) => <RootLayout>{page}</RootLayout>;
+
+export const getStaticPaths = async () => {
+  const res = await fetch("http://localhost:5000/data");
+  const allProducts = await res.json();
+  const uniqueCategories = [...new Set(allProducts.map((p) => p.category))];
+  const paths = uniqueCategories.map((category) => ({
+    params: {
+      productsCategory: category.toLowerCase().replace(/[^a-z0-9]/g, ""), // slugify
+    },
+  }));
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps = async (context) => {
+  const { params } = context;
+  const slug = params.productsCategory;
+  const res = await fetch(`http://localhost:5000/data`);
+  const data = await res.json();
+  const categories = [...new Set(data.map((p) => p.category))];
+  const slugToCategory = categories.reduce((acc, cat) => {
+    acc[cat.toLowerCase().replace(/[^a-z0-9]/g, "")] = cat;
+    return acc;
+  }, {});
+  const originalCategory = slugToCategory[slug];
+  if (!originalCategory) {
+    return { notFound: true };
+  }
+  const filtered = data.filter((p) => p.category === originalCategory);
+  return {
+    props: {
+      categoryName: originalCategory,
+      categoryProducts: filtered,
+    },
+  };
+};

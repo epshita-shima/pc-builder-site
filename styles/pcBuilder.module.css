@@ -1,0 +1,13 @@
+ .pcBuilderButton {
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+    font-family:'italic'
+  }
+
+  .pcBuilderButton:hover {
+    background-color: black;
+    color: white;
+  }
