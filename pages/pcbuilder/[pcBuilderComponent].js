@@ -1,13 +1,30 @@
-import { Card, Col, Row } from "antd";
+import RootLayout from "@/src/component/Layouts/RootLayout";
+import { selectedComponent } from "@/src/component/redux/pcBuilderSlice";
+import { Button, Card, Col, Row } from "antd";
+import Meta from "antd/es/card/Meta";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-const AllProducts = ({ allProducts }) => {
-  const { Meta } = Card;
+const PCBuilderComponent = ({ category, pcBuilderData,categoryName }) => {
+  const dispatch = useDispatch();
+  const router=useRouter()
+
+
+  const handleAddToBuild = (products) => {
+    dispatch(
+      selectedComponent({
+        category:categoryName,
+        component: products,
+      })
+    );
+     router.push("/pcbuilder");
+  };
   return (
     <Row gutter={[16, 24]}>
-      {allProducts?.map((products) => (
+      {pcBuilderData?.map((products) => (
         <Col
           key={products.id}
           className="gutter-row"
@@ -89,23 +106,24 @@ const AllProducts = ({ allProducts }) => {
               >
                 Rating: <span>{products?.rating}</span>
               </p>
-              <Link href={`/products/product/${products.id}`}>
-                <p
-                  style={{
-                    fontSize: "15px",
-                    marginTop: "20px",
-                    backgroundColor: "black",
-                    color: "white",
-                    width: "100%",
-                    fontWeight: "300",
-                    letterSpacing: "3px",
-                    padding: "2px 5px",
-                    textAlign: "center",
-                  }}
-                >
-                  Product Details
-                </p>
-              </Link>
+              <Button
+                style={{
+                  fontSize: "15px",
+                  marginTop: "20px",
+                  backgroundColor: "black",
+                  color: "white",
+                  width: "100%",
+                  fontWeight: "300",
+                  letterSpacing: "3px",
+                  padding: "2px 5px",
+                  textAlign: "center",
+                }}
+                onClick={() => {
+                  handleAddToBuild(products);
+                }}
+              >
+                Add To Build
+              </Button>
             </Card>
           </div>
         </Col>
@@ -114,4 +132,32 @@ const AllProducts = ({ allProducts }) => {
   );
 };
 
-export default AllProducts;
+export default PCBuilderComponent;
+
+PCBuilderComponent.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};
+
+export const getServerSideProps = async (context) => {
+  const { params } = context;
+  const slug = params.pcBuilderComponent;
+  const res = await fetch(`http://localhost:5000/data`);
+  const data = await res.json();
+  const categories = [...new Set(data.map((p) => p.category))];
+  const slugToCategory = categories.reduce((acc, cat) => {
+    acc[cat.toLowerCase().replace(/[^a-z0-9]/g, "")] = cat;
+    return acc;
+  }, {});
+  const originalCategory = slugToCategory[slug];
+  if (!originalCategory) {
+    return { notFound: true };
+  }
+  const filtered = data.filter((p) => p.category === originalCategory);
+
+  return {
+    props: {
+      categoryName: originalCategory,
+      pcBuilderData: filtered,
+    },
+  };
+};
